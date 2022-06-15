@@ -12,12 +12,14 @@ p{
 }
 button {
     color:#fff;
-    background-color: #025157;
+    background-color: #67b54b;
 }
 
 .header{
     margin: 40px 20px 0px; /* top IzqyDer  bottom*/ /*top izq der bottom */
     font-size: 0;
+    font-family: sans-serif;
+    height: 45px;
 }
 
 li {
@@ -41,19 +43,40 @@ li {
 }
 
 .navbar{
-    width: 70%;
-    text-align: center;
+    width: 65%;
+    text-align: left;
     color: #025157;
     font-weight: 500;
 }
 
-.actions{
-    width: 15%;
-    text-align: right;
+.menu-elem{
+    margin: 0px 25px 0px;
+}
+
+.actions {
+    width: 20%;
+    text-align: left;
     font-size: 14px;
     font-weight: 600;
 }
 
+.actions > *{
+    margin: 0px 10px 0px;
+}
+
+.actions a{
+    color: #67b54b;
+}
+
+
+.actions button {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+}
 .main {
     margin:40px 0px 0px;
     text-align: center;
