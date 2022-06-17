@@ -10,29 +10,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
 </head>
-<header class="header">
-    <!--Regresar pag principal-->
-    <a href="/" class="logo">
-        <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Logo">
-    </a>
-    <!-- menu -->
-    <nav class="navbar">
-        <ul>
-            <li class="menu-elem">Templates</li>
-            <li class="menu-elem">Pricing</li>
-            <li class="menu-elem">Customers</li>
-            <li class="menu-elem">Blog</li>
-            <li class="menu-elem">Resources</li>
-        </ul>
-
-    </nav>
-    <!--Acciones de usuario-->
-    <div class="actions">
-        <a href="/login">Sing In</a>
-        <button>Start free trial</button>
-    </div>
-</header>
 <body>
+    <section class="fixed-header">
+        <header class="header">
+            <!--Regresar pag principal-->
+            <a href="/" class="logo">
+                <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Logo">
+            </a>
+            <!-- menu -->
+            <nav class="navbar">
+                <ul>
+                    <li class="menu-elem">Templates</li>
+                    <li class="menu-elem">Pricing</li>
+                    <li class="menu-elem">Customers</li>
+                    <li class="menu-elem">Blog</li>
+                    <li class="menu-elem">Resources</li>
+                </ul>
+
+            </nav>
+            <!--Acciones de usuario-->
+            <div class="actions">
+                <a href="/login">Sing In</a>
+                <button>Start free trial</button>
+            </div>
+        </header>
+    </section>
     <section class="main">
         <h1>Build your bussines</h1>
         <p>Instantly publish articles, drive more traffic, grow your email list, 
@@ -48,20 +50,28 @@
             <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" 
             alt="Imagen Capterra" width="300">    
     </section>
-    <section>
-        <video 
-        controls
-        poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"
-      >
-        <source
-         type="video/mp4"
-         src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
-        >
-        <source
-         type="video/webm"
-         src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
-        >
-      </video>
+    <section class="promo">
+        <article class="explanatory-video">
+            <video 
+                controls
+                poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"
+            >
+            <source
+                type="video/mp4"
+                src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
+            >
+            <source
+                 type="video/webm"
+                src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
+            >
+            </video>
+        <img
+            src="https://images.vexels.com/media/users/3/206269/isolated/preview/5bf110f14d50531aaca26c251c3441aa-doodle-de-flecha-vertical.png"
+            alt="See how it works"
+       />
+        </article>
+        
+
       <article class="publish">
         <h3>Publish to your blog in minutes, not hours.</h3>
         <p>
@@ -79,6 +89,7 @@
           </div>
         </form>
       </article>
+
     </section>
     <br/>
     <br/>

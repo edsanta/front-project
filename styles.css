@@ -25,7 +25,15 @@ button {
 
 li {
     display: inline;
+    margin: 0 25px 0;
 }
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+  }
 
 .header > * {
     display: inline-block;
@@ -44,25 +52,25 @@ li {
 }
 
 .navbar{
-    width: 65%;
-    text-align: left;
+    width: 60%;
+    text-align: center;
     color: #025157;
     font-weight: 500;
 }
 
 .menu-elem{
-    margin: 0px 25px 0px;
+    margin: 0px 25px;
 }
 
 .actions {
     width: 20%;
-    text-align: left;
+    text-align: right;
     font-size: 14px;
     font-weight: 600;
 }
 
 .actions > *{
-    margin: 0px 10px 0px;
+    margin: 0px 10px;
 }
 
 .actions a{
@@ -79,12 +87,13 @@ li {
     border-radius: 5px;
 }
 .main {
-    margin:40px 0px 0px;
+    margin-top:285px ;
     text-align: center;
 }
 
 .publish {
     /* container styles if any */
+    margin-left: 30px;
   }
   
   .publish h3 {
@@ -109,3 +118,22 @@ li {
     color: #025157;
     margin-right: 18px;
   }
+
+  .promo{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+  }
+
+  .explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+  }
+
