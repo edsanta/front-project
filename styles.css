@@ -137,3 +137,7 @@ li {
     margin-top: 10px;
   }
 
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /*repeat(2,300px);*/
+}
