@@ -247,6 +247,24 @@ li {
   .publish > form > input {
     width: 65%;
   }
+
+  .promo {
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .explanatory-video > video {
+    width: 100%;
+  }
+
+  .publish{
+    margin-top: 10px;
+  }
+
+  .publish > h3{
+    font-size: 25px;
+    line-height: 1.2;
+  }
 }
 
 @media (min-width:576px) and (max-width:767px) {
