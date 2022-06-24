@@ -63,6 +63,7 @@ li {
 
 .menu-elem{
     margin: 20px 25px;
+    
 }
 
 .actions {
@@ -264,6 +265,15 @@ li {
   .publish > h3{
     font-size: 25px;
     line-height: 1.2;
+  }
+
+  .features{
+    grid-template: repeat(4,1fr) / 1fr;
+    padding: 5% 0;
+  }
+
+  .feature-image{
+    display: none;
   }
 }
 
