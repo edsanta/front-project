@@ -1,7 +1,10 @@
+
+
 body {
     background-color: #fffbf7;
 }
 h1 {
+    font-size: 60px;
     color:#025157;
     text-align: center;
     font-family: 'Secular One', sans-serif;
@@ -210,4 +213,24 @@ li {
 .feature-image:hover{
   transform: scale(1.1);
   position:sticky;
+}
+
+/*Dispositivos mov en vista vertical*/
+@media (max-width:575px){
+  .navbar,
+  .actions {
+    display: none;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+  .main{
+    margin-top: 110px;
+  }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+
 }
