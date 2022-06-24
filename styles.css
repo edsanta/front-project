@@ -63,7 +63,7 @@ li {
 
 .menu-elem{
     margin: 20px 25px;
-    
+
 }
 
 .actions {
@@ -218,10 +218,10 @@ li {
 
 /*Dispositivos mov en vista vertical*/
 @media (max-width:575px){
-  .navbar,
+  /*.navbar,
   .actions {
     display: none;
-  }
+  }*/
 
   h1{
     font-size: 30px;
