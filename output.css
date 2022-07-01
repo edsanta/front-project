@@ -62,5 +62,12 @@ fuentes
 .blog .read-more > a {
   text-decoration: underline;
 }
+.blog .author > img {
+  border-radius: 100%;
+}
+.blog .author > p {
+  font-size: 16PX;
+  padding-left: 10px;
+}
 
 /*# sourceMappingURL=output.css.map */
