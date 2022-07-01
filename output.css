@@ -44,5 +44,23 @@ fuentes
   width: 180px;
   margin-bottom: 15px;
 }
+.blog .card-title {
+  color: #4a4a4a;
+}
+.blog .category {
+  color: #67b54b;
+  font-size: 13px;
+}
+.blog .read-time {
+  color: #979797;
+  font-size: 13px;
+}
+.blog .card-text {
+  color: #4a4a4a;
+  font-size: 15px;
+}
+.blog .read-more > a {
+  text-decoration: underline;
+}
 
 /*# sourceMappingURL=output.css.map */

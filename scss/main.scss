@@ -40,6 +40,8 @@
                 }
             }
         }
+
+        
     }
     button {
         height: auto;
@@ -47,6 +49,29 @@
         padding: 12px;
         width: 180px;
         margin-bottom: 15px;
+    }
+
+    .card-title {
+        color: $gray;
+
+    }
+    .category {
+        color: $light-green;
+        font-size: 13px;
+    }
+    .read-time{
+        color: $light-gray;
+        font-size: 13px;
+    }
+    .card-text {
+        color: $gray;
+        font-size: 15px;
+    }
+    .read-more{
+        & > a {
+            text-decoration: underline;
+        }
+        
     }
 
 }
