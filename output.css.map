@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["scss/main.scss"],"names":[],"mappings":"AAAA;EACI","file":"output.css"}
+{"version":3,"sourceRoot":"","sources":["scss/_global.scss","scss/main.scss"],"names":[],"mappings":"AAOA;AAAA;AAAA;AAKA;EACI,aAHQ;EAIR,OAVc;;;ACFlB;EACI;EACA;EACA;;AAKA;EACI;EACA;;AAEA;EACI;;AAGI;EACI,ODhBD;ECiBC;EACA;EACA;;AAGJ;EACI,ODtBF;ECuBE;;AAIR;EACI;EACA;EACA;EACA;;AAEA;EACI;;AAKhB;EACI;EACA;EACA;EACA;EACA","file":"output.css"}
